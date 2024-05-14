@@ -1,0 +1,32 @@
+GET
+http://localhost:4000/students/
+
+###
+GET 
+http://localhost:4000/Users/
+
+###
+GET 
+http://localhost:4000/students/5/
+
+
+###
+POST
+http://localhost:4000/students
+Content-Type: application/json
+
+{
+    username: "vineeth",
+    password: "vineeth123",
+    role: "student",
+    college_id: 3,
+    section: "A"
+}
+
+###
+PUT
+http://localhost:4000/students/5
+
+###
+DELETE
+http://localhost/studnets/5
